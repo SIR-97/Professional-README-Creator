@@ -43,7 +43,7 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'github',
+        name: 'githubUsername',
         message: 'What is your GitHub username?',
       },
       {
@@ -77,3 +77,4 @@ function writeToFile(fileName, data) {
   
 // function call to initialize program
 init();
+ 

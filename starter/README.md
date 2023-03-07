@@ -1,10 +1,10 @@
-# TEST
+# Test
 
-  ![badge](https://img.shields.io/badge/license-None-brightgreen)
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Description
 
-  TEST
+  Test
 
   ## Table of Contents
 
@@ -21,21 +21,21 @@
 
   ## Usage
 
-  TEST
+  Test
 
   ## License
 
-  This project is covered under the None license.
+  This project is covered under the MIT license.
 
   ## Contributing
 
-  TEST
+  Test
 
   ## Tests
 
-  TEST
+  Test
 
   ## Questions
 
-  For additional questions, please contact undefined at TEST.
+  For additional questions, please contact https://github.com/SIR-97 at sirafiq.1997@gmail.com.
   
