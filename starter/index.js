@@ -55,24 +55,25 @@ const questions = [
 ];
 
 // function to write README file
-
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) => {
+    fs.writeFile(fileName, data, function (err) {
       if (err) {
-        console.error(err);
+        console.log(err);
       } else {
-        console.log(`README file generated as ${fileName}`);
+        console.log("README file successfully created!");
       }
     });
   }
-
-// function to initialize program
-function init() {
+  
+  // function to initialize program
+  function init() {
     inquirer.prompt(questions).then((answers) => {
       const readmeContent = generateMarkdown(answers);
-      writeToFile('README.md', readmeContent);
+      const fileName = "README.md";
+      const filePath = path.join(__dirname, fileName);
+      writeToFile(filePath, readmeContent);
     });
   }
-
+  
 // function call to initialize program
 init();
