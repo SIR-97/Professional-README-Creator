@@ -2,31 +2,31 @@
 
 To use my application, simply run the command-line application and answer the prompts with the necessary information for each section. The application will then generate a README.md file with the sections filled out with the provided information. This application requires Node.js and the inquirer.js package to be installed.
 
-Title
+## Title
 The title of the project is added to the README as the title of the document.
 
-Description
+## Description
 The description of the project is added to this section.
 
-Table of Contents
+## Table of Contents
 The table of contents includes links to all the sections of the README. Users can easily navigate through the README by clicking on the links in the table of contents.
 
-Installation
+## Installation
 This section includes instructions on how to install and set up the project.
 
-Usage
+## Usage
 This section includes instructions on how to use the project.
 
-License
+## License
 Users can choose a license for their application from a list of options. A badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
 
-Contributing
+## Contributing
 This section includes guidelines on how to contribute to the project.
 
-Tests
+## Tests
 This section includes instructions on how to run tests for the project.
 
-Questions
+## Questions
 This section includes the user's GitHub username and email address. The GitHub username is linked to the user's GitHub profile, and the email address includes instructions on how to reach the user with additional questions.
 
 
